@@ -1,0 +1,122 @@
+.w{
+	width:1200px;
+	margin:auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+body{
+	background:#f3f6f8;
+}
+/*头部开始*/
+.log{
+	height: 100px;
+	background:#ccc;
+	overflow:hidden;
+
+}
+.logo1 a img{
+	width: 196px;
+	margin:28px;
+}
+.logo1 a{
+		font-size:0;   
+/*		text-indent:-1999px;*/           /*问题1*/
+		margin-right:50px;
+}
+.logo2 ul li a{
+	font-size:18px;
+	padding:18px;
+}
+.logo2{
+	margin-top:42px;
+
+}
+.logo2 li a:hover{
+	border-bottom:2px solid #00a4f9;
+}
+.logo3 input{
+	margin-top:30px;
+	width: 410px;
+	height: 38px;
+	border:1px solid #00a4f9;
+	margin-left:40px;
+}
+.logo3 input:focus{
+		color:red;
+		border-bottom:2px solid green;
+}
+.logo3 .logotu{
+	background:url(../images/btn.png) no-repeat;
+	width: 50px;
+	height: 40px;
+	margin-top:30px;
+}
+.logo4 img{
+	border-radius:50%;
+	padding-right:2px;
+	margin-top:30px;
+}
+.logo4 a{
+	font-size:14px;
+	color:#797c7c;
+/*	margin-bottom:20px;      不能居中
+	padding-bottom:20px;*/
+}
+/*.logo4{
+	line-height:center;
+}*/
+.logo4 a:hover{
+	color:#00a4f9;
+}
+/*头部结束*/
+/*轮播开始*/
+.lunbo{
+	background:#1b046b no-repeat;
+}
+.lunbo1{
+	height: 420px;
+	background:url(../images/banner2.png);
+}
+.lunbo2{
+	width:190px;
+	height: 420px
+	background:rgb(20, 3, 74,0.9) no-repeat;
+}
+.lunbo2 ul li{
+	padding-bottom:22px;
+	float:left;
+}
+.lunbo2 ul{
+	padding-top:32px;
+	padding-left:16px;
+}
+.lunbo2 ul li a span:nth-child(2){
+	margin-right:16px;
+}
+.lunbo2 ul li a{
+		color:#e8e4f8;
+		font-size:12px;
+}
+.lunbo2 ul li a:hover span{
+	color:#00a4f9;
+}
+/*轮播结束*/
+/*导航开始*/
+
+.daohang .daohang1 ul{
+	margin-left:12px;
+	padding:20px;
+}
+.daohang.daohang2 ul{
+	margin-right:990px;
+
+}
+.daohang2 ul>li:nth-child(1){
+	color:rgb(50, 176, 249);
+	font-weight:600;
+}
+/*导航结束*/
